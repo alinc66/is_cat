@@ -7,7 +7,7 @@ import numpy as np
 import time
 
 #loading the cat classifier model
-cat_clf=joblib.load("Cat_Clf_model.pkl")
+cat_clf=joblib.load("larc.pkl")
 
 #Loading Cat moew sound
 audio_file = open('Cat-meow.mp3', 'rb')
